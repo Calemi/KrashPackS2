@@ -4,3 +4,16 @@ logs/*
 options.txt
 realms_persistence.json
 minecraftinstance.json
+usernamecache.json
+usercache.json
+patchouli_data.json
+observable_announce
+command_history.json
+screenshots/*
+saves/*
+patchouli_books/*
+moddata/*
+journeymap/*
+crash-reports/*
+assets/*
+.cache/*
