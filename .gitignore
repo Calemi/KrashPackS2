@@ -1,8 +1,16 @@
 *
 
 #!/mods/
+#!/mods/**
+
 #!/resourcepacks/
+#!/resourcepacks/**
+
 #!/shaderpacks/
+#!/shaderpacks/**
 
 #!/config/
-#!/kubejs/
+#!/config/**
+
+!/kubejs/
+!/kubejs/**
