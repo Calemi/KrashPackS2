@@ -12,5 +12,5 @@
 #!/config/
 #!/config/**
 
-!/kubejs/
-!/kubejs/**
+#!/kubejs/
+#!/kubejs/**
