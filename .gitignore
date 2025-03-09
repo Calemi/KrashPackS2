@@ -3,7 +3,6 @@ downloads/*
 logs/*
 options.txt
 realms_persistence.json
-minecraftinstance.json
 usernamecache.json
 usercache.json
 patchouli_data.json
