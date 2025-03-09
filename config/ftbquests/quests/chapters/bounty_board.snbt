@@ -1,0 +1,383 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bounty_board"
+	group: "6692DDC72B5390A1"
+	icon: {
+		id: "minecraft:zombie_head"
+	}
+	id: "569F4C80FE55123D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "56611886BF8A896C"
+			rewards: [{
+				id: "6257FEB68ED91445"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5D8C5E83CDED4EDA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56611886BF8A896C"]
+			id: "556BE7028CF40D19"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					id: "minecraft:zombie_head"
+				}
+				id: "206FBEEB09A1810A"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["556BE7028CF40D19"]
+			id: "47B837211DB4313F"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					id: "minecraft:zombie_head"
+				}
+				id: "223BBE1DFA282C84"
+				type: "kill"
+				value: 50L
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47B837211DB4313F"]
+			id: "44FE77934DD1EC3A"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					id: "minecraft:zombie_head"
+				}
+				id: "4F7F1865BF88E4D6"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["44FE77934DD1EC3A"]
+			id: "423C9BF31D8A797E"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					id: "minecraft:zombie_head"
+				}
+				id: "3F21B09D02BED403"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["423C9BF31D8A797E"]
+			id: "165E84BC0C2C13DA"
+			rewards: [{
+				id: "0FD5DFEB0579EED0"
+				item: {
+					count: 1
+					id: "plushies:zombie_plushie"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					id: "minecraft:zombie_head"
+				}
+				id: "2C47F9F9CD8447CA"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["56611886BF8A896C"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "1A6DB6C86A082E31"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "414033AA594674AA"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A6DB6C86A082E31"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "31C8CE41BC1F9D7E"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "19F97E65B90B0640"
+				type: "kill"
+				value: 50L
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31C8CE41BC1F9D7E"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "779EAC7492D32848"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "1FC2E41874BA03FB"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["779EAC7492D32848"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "68B93A54C1038E6F"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "3CD0614F39457923"
+				type: "kill"
+				value: 500L
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["68B93A54C1038E6F"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "16AAC539B1CC1C2A"
+			rewards: [{
+				id: "744DCB175AD6DA31"
+				item: {
+					count: 1
+					id: "plushies:skeleton_plushie"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "48A3DE595BB7FD02"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["56611886BF8A896C"]
+			id: "1F48C654B9CE8D1A"
+			tasks: [{
+				entity: "minecraft:pig"
+				icon: {
+					id: "simplehats:pighead"
+				}
+				id: "009F6910C1F53204"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F48C654B9CE8D1A"]
+			id: "34AE7FE88F858387"
+			tasks: [{
+				entity: "minecraft:pig"
+				icon: {
+					id: "simplehats:pighead"
+				}
+				id: "77CB6F8281E21924"
+				type: "kill"
+				value: 50L
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34AE7FE88F858387"]
+			id: "0167C27242BEF493"
+			tasks: [{
+				entity: "minecraft:pig"
+				icon: {
+					id: "simplehats:pighead"
+				}
+				id: "73F788A95228D4B9"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0167C27242BEF493"]
+			id: "4AA67C7587EEBECD"
+			tasks: [{
+				entity: "minecraft:pig"
+				icon: {
+					id: "simplehats:pighead"
+				}
+				id: "30257115922DA2F2"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4AA67C7587EEBECD"]
+			id: "00108569A3A19AC8"
+			rewards: [{
+				id: "6C10D08831152D6D"
+				item: {
+					count: 1
+					id: "plushies:pig_plushie"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:pig"
+				icon: {
+					id: "simplehats:pighead"
+				}
+				id: "36ED0FACB7C7B3FD"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["56611886BF8A896C"]
+			id: "55F3E18D1B93A6E0"
+			tasks: [{
+				entity: "minecraft:cow"
+				icon: {
+					id: "plushies:cow_plushie"
+				}
+				id: "207F5F85789DAB43"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55F3E18D1B93A6E0"]
+			id: "6DF09884A99302EB"
+			tasks: [{
+				entity: "minecraft:cow"
+				icon: {
+					id: "plushies:cow_plushie"
+				}
+				id: "1E84096779CF93AB"
+				type: "kill"
+				value: 50L
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6DF09884A99302EB"]
+			id: "10500C2BB7D10683"
+			tasks: [{
+				entity: "minecraft:cow"
+				icon: {
+					id: "plushies:cow_plushie"
+				}
+				id: "341439DF901CCEC4"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["10500C2BB7D10683"]
+			id: "33B2865B0E201E52"
+			tasks: [{
+				entity: "minecraft:cow"
+				icon: {
+					id: "plushies:cow_plushie"
+				}
+				id: "4774D1B121A59F8D"
+				type: "kill"
+				value: 500L
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["33B2865B0E201E52"]
+			id: "76B56855600DD29F"
+			rewards: [{
+				id: "278D3C10D344636C"
+				item: {
+					count: 1
+					id: "plushies:cow_plushie"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:cow"
+				icon: {
+					id: "plushies:cow_plushie"
+				}
+				id: "710D305045CBA9FA"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			id: "5F7076E97A701F59"
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "773B3DF748D4B598"
+				type: "kill"
+				value: 100L
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+}
