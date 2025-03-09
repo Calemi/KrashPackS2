@@ -1,5 +1,0 @@
-[
-  {"version":2},
-  {"ingredient":{"id":"minecraft:oak_fence_gate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"twilightforest:torchberries"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]

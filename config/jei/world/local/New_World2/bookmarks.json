@@ -1,9 +1,0 @@
-[
-  {"version":2},
-  {"ingredient":{"id":"minecraft:enchanted_book","components":{"minecraft:stored_enchantments":{"levels":{"minecraft:fire_protection":4}},"minecraft:custom_name":"\"Fire Protection IV\""}},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:oak_fence_gate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:oak_fence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:spruce_planks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"mekanism:advanced_thermodynamic_conductor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"powah:solar_panel_blazing"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]
