@@ -3,3 +3,4 @@ downloads/*
 logs/*
 options.txt
 realms_persistence.json
+minecraftinstance.json
