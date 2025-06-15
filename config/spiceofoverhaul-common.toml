@@ -1,0 +1,24 @@
+#Spice of Life system of lowering food stats when it is being eaten too often
+enableSOLModule = true
+#Number of eaten foods that will affect food values of next item eaten
+# Default: 20
+# Range: 1 ~ 1000
+historyLength = 20
+#Makes cake eatable even if it does not give any hunger
+cakeEatableAnyway = false
+#Percentage by which the history length will increase every X hours of playtime.
+# Default: 0.05
+# Range: 0.01 ~ 1.0
+historyLengthIncreasePercentage = 0.05
+#The interval (in hours) after which the history length will increase.
+# Default: 600
+# Range: 1 ~ 6000
+historyLengthIncreaseIntervalMinutes = 600
+#Maximum cap for history length to prevent infinite growth.
+# Default: 100
+# Range: 1 ~ 10000
+historyLengthMax = 100
+#Max unique food items in the Lunch Box (Default: 64), Setting this too high could cause issues.
+# Default: 64
+# Range: 1 ~ 256
+maxUniqueItems = 64
