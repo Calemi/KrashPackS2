@@ -1,0 +1,8 @@
+#Portal Core HUD Overlay
+#Enables the HUD overlay text above the action bar.
+#This overlay shows the destination coordinates of the Nexus Portal Core if placed where standing.
+portalCoreHUDOverlay = true
+#Portal Core World Overlay
+#Enables the HUD overlay text above the action bar.
+#Enables the lines that show the bounds that are equivalent to a single block in the Nexus.
+portalCoreWorldOverlay = true

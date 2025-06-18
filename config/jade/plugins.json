@@ -56,6 +56,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "nexus": {
+    "nexus_portal_core": true,
+    "nexus_portal": true
+  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,

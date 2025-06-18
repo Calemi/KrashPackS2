@@ -1,3 +1,6 @@
 #Charge Block Outlines
-#Enables the outlines that show what blocks the Sledgehammer will mine while charging.
+#Enables the outlines that show what blocks a Sledgehammer will mine while charging.
 chargeBlockOutlines = true
+#Charge Hammer Overlay
+#Enables the hammer icon overlay that appears when a Sledgehammer is charging.
+chargeHammerOverlay = true

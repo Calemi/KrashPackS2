@@ -121,6 +121,8 @@
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
+  "nexus:nexus_portal": null,
+  "nexus:nexus_portal_core": null,
   "pneumaticcraft:camo": null,
   "pneumaticcraft:entity": null,
   "pneumaticcraft:pneumatic": null,
